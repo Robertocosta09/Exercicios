@@ -1,7 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Inter', sans-serif;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 
 
 
@@ -36,7 +39,7 @@ a {
 a:hover {
     color: #fff;
     display: block;
-    background-color: #333;
+    background-color: #a44f4f;
     text-decoration: none;
     margin-left: 10px;
 }
@@ -44,7 +47,7 @@ a:hover {
 .container {
     background: url("vader\ 2.jpg") no-repeat center center;
     background-size: cover;
-    height: 92vw;
+    height: 600vw;
     background-attachment: fixed;
 }
 
@@ -62,7 +65,8 @@ a:hover {
 }
 
 .nav-list li a {
-    color: yellow display: block;
+    color: yellow;
+    display: block;
     text-decoration: none;
     margin-left: 30px;
     border-radius: 10px;
@@ -89,6 +93,8 @@ a:hover {
 p {
     text-align: justify;
     color: yellow;
+    font-size: 16px;
+
 }
 
 .container {
@@ -100,7 +106,7 @@ p {
 
 .container div {
     flex: 1 1 300px;
-    margin: 10px;
+    margin: 50px;
     margin-top: 40px;
 }
 
