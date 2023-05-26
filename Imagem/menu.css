@@ -29,6 +29,10 @@ nav {
 
 }
 
+a {
+    color: yellow;
+}
+
 a:hover {
     color: #fff;
     display: block;
@@ -48,6 +52,7 @@ a:hover {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .nav-list li {
@@ -57,13 +62,13 @@ a:hover {
 }
 
 .nav-list li a {
-    color: #fff;
-    display: block;
+    color: yellow display: block;
     text-decoration: none;
     margin-left: 30px;
     border-radius: 10px;
     padding: 10px 20px 10px 20px;
     letter-spacing: 3px;
+
 }
 
 @media(max-widht:999px) {
@@ -79,6 +84,11 @@ a:hover {
         justify-content: space-around;
     }
 
+}
+
+p {
+    text-align: justify;
+    color: yellow;
 }
 
 .container {
